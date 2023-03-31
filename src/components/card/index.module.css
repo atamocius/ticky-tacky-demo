@@ -1,0 +1,52 @@
+.card {
+  /* Gray background color */
+  background-color: rgb(33, 36, 51);
+
+  /* Rounded corners */
+  border-radius: 0.125em;
+
+  /* Gaps in between cards/cells */
+  margin: 0.07em;
+
+  /* Center the image/icon/emoji within the box */
+  display: flex;
+  align-items: center; /* Vertically */
+  justify-content: center; /* Horizontally */
+
+  /*
+    Set explicit width & height, 1.6x the normal size.
+    This stacks with the "font-size" scaling in
+    the <Game> component's CSS.
+  */
+  height: 1.6em;
+  width: 1.6em;
+
+  /*
+    Change the mouse pointer to a "hand" if within
+    the bounds of the box
+  */
+  cursor: pointer;
+}
+
+.card:hover {
+  /* Change background color on hover */
+  background-color: rgb(19, 20, 30);
+}
+
+.winner {
+  /*
+    Change background color to denote that this
+    cell is part of the winning pattern
+  */
+  background-color: rgb(127, 141, 213);
+}
+
+.winner:hover {
+  /*
+    Change background color on hover.
+    This is actually the same as the bg color
+    in ".winner"; this is meant to override
+    the styles introduced by ".card:hover".
+  */
+  background-color: rgb(127, 141, 213);
+}

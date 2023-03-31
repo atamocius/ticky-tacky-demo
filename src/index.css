@@ -1,0 +1,25 @@
+:root {
+  /*
+    Set the font to the default sans-serif font
+    used by the OS
+  */
+  font-family: sans-serif;
+  /* Explicitly set the base font-size */
+  font-size: 16px;
+}
+
+/*
+  Box Sizing Reset
+  https://internetingishard.netlify.app/html-and-css/css-box-model/index.html#resetting-styles
+  https://css-tricks.com/box-sizing/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  /* Remove the default margin around the body */
+  margin: 0;
+}

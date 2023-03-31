@@ -1,0 +1,21 @@
+.game {
+  /* Scale the game 5x */
+  font-size: 5em;
+
+  /* Center */
+  display: flex;
+  align-items: center; /* Vertically */
+  justify-content: center; /* Horizontally */
+
+  /*
+    Make sure that this <div> takes up the
+    whole height
+  */
+  height: 100vh;
+
+  /* Prevent text selection */
+  user-select: none;
+
+  /* Dark background color */
+  background-color: rgb(43, 47, 65);
+}

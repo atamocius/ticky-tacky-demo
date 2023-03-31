@@ -1,0 +1,14 @@
+.row {
+  /*
+    By default, <div>s are "block elements".
+    In short, it takes up the whole width of its
+    parent.
+
+    Since each ".row" is a parent of
+    3 <div>s (for the 3 cards), setting it to
+    use the "flexbox layout model", would,
+    by default, change the layout flow into a
+    horizontal direction.
+  */
+  display: flex;
+}
